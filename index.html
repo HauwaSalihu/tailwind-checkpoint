@@ -84,11 +84,11 @@
       </section>
       <!-- ends here -->
       <!-- skills section -->
-      <section class="container mx-auto grid grid-cols-1 lg:grid-cols-2">
-        <div class="">
+      <section class="container mx-auto grid grid-cols-1 lg:grid-cols-2 mt-10">
+        <div class="mt-10">
           <h3 class="text-gray-900 font-semibold text-4xl">Experiences</h3>
           <!-- skill item one -->
-          <section class="flex items-center gap-5 mt-5">
+          <section class="flex items-center gap-5 mt-10">
             <div
               class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
             >
@@ -108,9 +108,9 @@
           <!-- ends here -->
 
           <!-- skill item one -->
-          <section class="flex items-center gap-5 mt-5">
+          <section class="flex items-center gap-5 mt-10">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full text-white text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full font-bold text-white text-center py-7"
             >
               2024
             </div>
@@ -128,9 +128,9 @@
           <!-- ends here -->
 
           <!-- skill item one -->
-          <section class="flex items-center gap-5 mt-5">
+          <section class="flex items-center gap-5 mt-10">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full text-white text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
             >
               2024
             </div>
@@ -147,10 +147,10 @@
           </p>
           <!-- ends here -->
         </div>
-        <div>
-          <h3 class="text-gray-900 font-semibold text-4xl">Experiences</h3>
+        <div class="mt-10">
+          <h3 class="text-gray-900 font-semibold text-4xl">Education</h3>
           <!-- skill item one -->
-          <section class="flex items-center gap-5 mt-5">
+          <section class="flex items-center gap-5 mt-10">
             <div
               class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
             >
@@ -170,9 +170,9 @@
           <!-- ends here -->
 
           <!-- skill item one -->
-          <section class="flex items-center gap-5 mt-5">
+          <section class="flex items-center gap-5 mt-10">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full text-white text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
             >
               2024
             </div>
@@ -190,9 +190,9 @@
           <!-- ends here -->
 
           <!-- skill item one -->
-          <section class="flex items-center gap-5 mt-5">
+          <section class="flex items-center gap-5 mt-10">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full text-white text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
             >
               2024
             </div>
@@ -212,18 +212,41 @@
       </section>
       <!-- ends here -->
       <!-- contact section -->
-      <section>
-        <h1>Interested in Working together ?</h1>
-        <form action="">
-          <input type="text" name="name" id="" placeholder="Full Name" />
-          <input type="email" name="email" id="" placeholder="E mail" />
-          <textarea name="" id="" cols="40" placeholder="Message"></textarea>
-          <button>Submit</button>
+      <section class="container mx-auto mt-10 text-center">
+        <h1 class="text-center text-gray-800 font-extrabold text-4xl">
+          Interested in Working together ?
+        </h1>
+        <form class="flex flex-col gap-5 mt-10">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <input
+              type="text"
+              name="name"
+              class="p-3 border border-gray-600 hover:border-yellow-400"
+              placeholder="Full Name"
+            />
+            <input
+              type="email"
+              name="email"
+              class="p-3 border border-gray-600 hover:border-yellow-400"
+              placeholder="E mail"
+            />
+          </div>
+          <textarea
+            name="message"
+            class="p-3 border border-gray-600 hover:border-yellow-400"
+            cols="40"
+            placeholder="Message"
+          ></textarea>
         </form>
+        <button
+          class="bg-yellow-500 p-3 px-10 text-white mt-10 rounded-full hover:bg-slate-900"
+        >
+          Submit
+        </button>
       </section>
       <!-- ends here -->
     </main>
-    <footer>
+    <footer class="text-center mt-10 text-gray-600">
       <p>Copyright © 2024 Hportfolio. All rights reserved</p>
       <p>Designed by Hauwa</p>
     </footer>
