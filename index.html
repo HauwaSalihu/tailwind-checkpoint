@@ -8,7 +8,7 @@
   <body>
     <!-- header section-->
     <header class="container mx-auto mt-10">
-      <nav class="flex justify-between items-center">
+      <nav class="flex flex-col md:flex-row justify-between items-center">
         <h4 class="font-black">HPortfolio</h4>
 
         <ul class="flex text-gray-500 font-bold gap-6">
@@ -18,7 +18,7 @@
           <li class="hover:text-yellow-400">Contact</li>
         </ul>
 
-        <span class="flex items-center gap-3">
+        <span class="flex items-center gap-3 invisible md:visible">
           <i class="far fa-moon"></i>
           <p>Color mode</p>
         </span>
@@ -27,7 +27,9 @@
     <!-- end -->
     <main>
       <!--hero secttion  -->
-      <section class="container mx-auto grid grid-cols-1 lg:grid-cols-2 m-52">
+      <section
+        class="container mx-auto grid grid-cols-1 lg:grid-cols-2 md:mt-40"
+      >
         <div class="grid gap-6">
           <p class="text-gray-500 font-medium">
             Welcome to my portfolio-website!
@@ -41,7 +43,7 @@
             mollitia nemo excepturi modi.
           </p>
 
-          <div class="flex gap-3">
+          <div class="flex flex-col md:flex-row gap-3 text-center">
             <button
               class="bg-gray-300 hover:text-yellow-300 text-gray-600 font-bold rounded-full lg:px-10 lg:p-0 p-3 px-10"
             >
@@ -49,13 +51,13 @@
               Download Resume
             </button>
             <button
-              class="hover:bg-yellow-400 bg-slate-700 text-white px-10 rounded-full"
+              class="hover:bg-yellow-400 bg-slate-700 text-white rounded-full lg:px-10 lg:p-0 p-3 px-10"
             >
               Get a free quote
             </button>
           </div>
         </div>
-        <div class="ml-40">
+        <div class="md:ml-40">
           <img
             src="https://www.free-css.com/assets/files/free-css-templates/preview/page270/marvel/assets/images/undraw/undraw_software_engineer_lvl5.svg"
             alt=""
@@ -66,7 +68,7 @@
       <!-- ends here -->
 
       <!-- projects section -->
-      <section class="container mx-auto">
+      <section class="container mx-auto md:mt-14">
         <h1 class="text-gray-950 font-extrabold text-5xl text-center mb-10">
           Things i have designed for clients
         </h1>
@@ -93,12 +95,12 @@
           <!-- skill item one -->
           <section class="flex items-center gap-5 mt-10">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full font-bold text-white text-center py-7 invisible md:visible"
             >
-              2023
+              2022
             </div>
 
-            <div class="flex gap-3 items-center">
+            <div class="flex flex-col md:flex-row gap-3 items-center">
               <h3 class="text-gray-800 font-bold text-2xl">
                 IT Project Manager
               </h3>
@@ -106,7 +108,7 @@
             </div>
           </section>
           <p
-            class="text-gray-500 font-medium border-l-4 pl-16 p-4 ml-10 border-gray-800"
+            class="text-gray-500 font-medium md:border-l-4 md:pl-16 md:p-4 ml-10 border-gray-800"
           >
             Aberdeen Commercial provides a range of services including,
             technical, commercial and strategic advice across various
@@ -121,12 +123,12 @@
           <!-- skill item one -->
           <section class="flex items-center gap-5">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full font-bold text-white text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full font-bold text-white text-center py-7 invisible md:visible"
             >
               2022
             </div>
 
-            <div class="flex gap-3 items-center">
+            <div class="flex gap-3 flex-col md:flex-row items-center">
               <h3 class="text-gray-800 font-bold text-2xl">
                 Software Developer
               </h3>
@@ -134,7 +136,7 @@
             </div>
           </section>
           <p
-            class="border-l-4 p-4 ml-10 pl-16 border-gray-800 text-gray-500 font-medium"
+            class="ml-10 md:border-l-4 md:pl-16 md:p-4 border-gray-800 text-gray-500 font-medium"
           >
             IntelBox is tech start-up company, the company offers a variety of
             services, ranging from bootcamps to digital literacy programs.
@@ -144,19 +146,19 @@
           <!-- skill item one -->
           <section class="flex items-center gap-5">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7 invisible md:visible"
             >
               2020
             </div>
 
-            <div class="flex gap-3 items-center">
+            <div class="flex gap-3 flex-col md:flex-row items-center">
               <h3 class="text-gray-800 font-bold text-2xl">
                 Front-end Developer,
               </h3>
               <p class="text-gray-800 font-bold text-lg">IT Central</p>
             </div>
           </section>
-          <p class="ml-28 text-gray-500 font-medium">
+          <p class="ml-10 md:ml-28 text-gray-500 font-medium">
             IT central is tech start-up in Kaduna, they provide tech solutions
             to schools and businesses.
           </p>
@@ -170,12 +172,12 @@
           <!-- skill item one -->
           <section class="flex items-center gap-5 mt-10">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7 invisible md:visible"
             >
               2024
             </div>
 
-            <div class="flex gap-3 items-center">
+            <div class="flex gap-3 flex-col md:flex-row items-center">
               <h3 class="text-gray-800 font-bold text-2xl">
                 Full Stack Web Development (MERN)
               </h3>
@@ -183,7 +185,7 @@
             </div>
           </section>
           <p
-            class="text-gray-500 font-medium border-l-4 pl-16 p-4 ml-10 border-gray-800"
+            class="text-gray-500 font-medium md:border-l-4 md:pl-16 md:p-4 ml-10 border-gray-800"
           >
             From the front-end, the visible part of the web, to the back-end,
             the hidden part that manages the logic, you will learn to create
@@ -197,12 +199,12 @@
           <!-- skill item one -->
           <section class="flex items-center gap-5">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full font-bold text-white text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full font-bold text-white text-center py-7 invisible md:visible"
             >
               2020
             </div>
 
-            <div class="flex gap-3 items-center">
+            <div class="flex gap-3 flex-col md:flex-row items-center">
               <h3 class="text-gray-800 font-bold text-2xl">
                 B.Sc. in Software Engineering,
               </h3>
@@ -212,7 +214,7 @@
             </div>
           </section>
           <p
-            class="border-l-4 p-4 ml-10 pl-16 border-gray-800 text-gray-500 font-medium"
+            class="ml-10 md:border-l-4 md:pl-16 md:p-4 border-gray-800 text-gray-500 font-medium"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
             ut eligendi ducimus provident accusantium nostrum blanditiis aliquam
@@ -223,19 +225,19 @@
           <!-- skill item one -->
           <section class="flex items-center gap-5">
             <div
-              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7"
+              class="bg-slate-900 w-20 h-20 rounded-full text-white font-bold text-center py-7 invisible md:visible"
             >
               2023
             </div>
 
-            <div class="flex gap-3 items-center">
+            <div class="flex gap-3 flex-col md:flex-row items-center">
               <h3 class="text-gray-800 font-bold text-2xl">
                 Complete Responsive Web Development: 4 courses in 1
               </h3>
               <p class="text-gray-800 font-bold text-lg">Udemy</p>
             </div>
           </section>
-          <p class="ml-28 text-gray-500 font-medium">
+          <p class="ml-10 md:ml-28 text-gray-500 font-medium">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
             ut eligendi ducimus provident accusantium nostrum blanditiis aliquam
             ea libero veniam.
